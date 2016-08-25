@@ -6,6 +6,7 @@ export default Ember.Object.extend({
     key: '',
     roles: Ember.A(),
     allRoles: Ember.A([
+        { name: 'Contributor', label: 'Contributor' },
         { name: 'PackageManager', label: 'Package Manager' },
         { name: 'AccountAdministrator', label: 'Account Administrator' }
     ])
